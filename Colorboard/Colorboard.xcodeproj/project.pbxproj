@@ -20,6 +20,7 @@
 		0108ECDB1BBB4E9F00277800 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0108ECD91BBB4E9F00277800 /* InfoPlist.strings */; };
 		0108ECDD1BBB4E9F00277800 /* ColorboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0108ECDC1BBB4E9F00277800 /* ColorboardTests.m */; };
 		0108ECE71BBB588800277800 /* Colorboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0108ECE61BBB588800277800 /* Colorboard.storyboard */; };
+		0108ECEA1BBB740400277800 /* BNRColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0108ECE91BBB740400277800 /* BNRColorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		0108ECDA1BBB4E9F00277800 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0108ECDC1BBB4E9F00277800 /* ColorboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorboardTests.m; sourceTree = "<group>"; };
 		0108ECE61BBB588800277800 /* Colorboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Colorboard.storyboard; sourceTree = "<group>"; };
+		0108ECE81BBB740400277800 /* BNRColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRColorViewController.h; sourceTree = "<group>"; };
+		0108ECE91BBB740400277800 /* BNRColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRColorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 			isa = PBXGroup;
 			children = (
 				0108ECE61BBB588800277800 /* Colorboard.storyboard */,
+				0108ECE81BBB740400277800 /* BNRColorViewController.h */,
+				0108ECE91BBB740400277800 /* BNRColorViewController.m */,
 				0108ECBD1BBB4E9F00277800 /* Colorboard */,
 				0108ECD61BBB4E9F00277800 /* ColorboardTests */,
 				0108ECB61BBB4E9F00277800 /* Frameworks */,
@@ -246,6 +251,7 @@
 			files = (
 				0108ECC41BBB4E9F00277800 /* main.m in Sources */,
 				0108ECC81BBB4E9F00277800 /* BNRAppDelegate.m in Sources */,
+				0108ECEA1BBB740400277800 /* BNRColorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
